@@ -65,7 +65,8 @@ namespace DogGo.Controllers
         // GET: WalkersController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            Walker walker = _walkerRepo.GetWalkerById(id);
+            return View(walker);
         }
 
         // POST: WalkersController/Edit/5
@@ -73,6 +74,7 @@ namespace DogGo.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
+            Walker walker = _walkerRepo.GetWalkerById(id);
             try
             {
                 return RedirectToAction(nameof(Index));

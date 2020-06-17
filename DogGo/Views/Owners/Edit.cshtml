@@ -30,7 +30,15 @@
             </div>
             <div class="form-group">
                 <label asp-for="NeighborhoodId" class="control-label"></label>
-                <input asp-for="NeighborhoodId" class="form-control" />
+                @*<input asp-for="NeighborhoodId" class="form-control" />*@
+                <select asp-for="NeighborhoodId" >
+                    <option value="0">@Neighborhood.Name</option>
+                    @foreach (Neighborhood in Neighborhoods)
+                    {
+                        <option value="@taco.Name">@taco.Name</option>
+                    }
+                </select>
+
                 <span asp-validation-for="NeighborhoodId" class="text-danger"></span>
             </div>
             <div class="form-group">
