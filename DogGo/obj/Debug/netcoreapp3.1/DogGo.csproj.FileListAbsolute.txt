@@ -128,5 +128,9 @@
 \\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\DogGo.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\DogGo.MvcApplicationPartsAssemblyInfo.cache
 \\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Walkers\Index.cshtml.g.cs
-\\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Walkers\Edit.cshtml.g.cs
 \\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Walkers\Details.cshtml.g.cs
+\\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Owners\Create.cshtml.g.cs
+\\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Owners\Delete.cshtml.g.cs
+\\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Owners\Details.cshtml.g.cs
+\\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Owners\Edit.cshtml.g.cs
+\\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Owners\Index.cshtml.g.cs
