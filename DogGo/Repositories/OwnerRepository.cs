@@ -215,7 +215,7 @@ namespace DogGo.Repositories
                                 Address = @address, 
                                 Phone = @phone, 
                                 NeighborhoodId = @neighborhoodId
-                            WHERE Id = @id";
+                                WHERE Id = @id";
 
                     cmd.Parameters.AddWithValue("@name", owner.Name);
                     cmd.Parameters.AddWithValue("@email", owner.Email);
