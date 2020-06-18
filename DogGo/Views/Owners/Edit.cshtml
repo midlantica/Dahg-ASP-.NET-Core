@@ -30,16 +30,15 @@
             </div>
             <div class="form-group">
                 <label asp-for="NeighborhoodId" class="control-label"></label>
-                @*<input asp-for="NeighborhoodId" class="form-control" />*@
-                <select asp-for="NeighborhoodId" >
-                    <option value="0">@Neighborhood.Name</option>
-                    @foreach (Neighborhood in Neighborhoods)
-                    {
-                        <option value="@taco.Name">@taco.Name</option>
+                <input asp-for="NeighborhoodId" class="form-control" />
+                @*<select asp-for="NeighborhoodId" >
+                    <option value="0">@neighborhood.Name</option>
+                    @foreach (Neighborhood neighborhood in Model.Neighborhoods)                    {
+                        <option value="@neighborhood.Name">@neighborhood.Name</option>
                     }
-                </select>
+                </select>*@
 
-                <span asp-validation-for="NeighborhoodId" class="text-danger"></span>
+                @*<span asp-validation-for="@Neighborhood" class="text-danger"></span>*@
             </div>
             <div class="form-group">
                 <label asp-for="Phone" class="control-label"></label>
