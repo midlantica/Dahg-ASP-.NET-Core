@@ -135,3 +135,4 @@
 \\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Owners\Edit.cshtml.g.cs
 \\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Owners\Index.cshtml.g.cs
 \\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Walkers\Edit.cshtml.g.cs
+\\Mac\Home\Documents\work\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Owners\Login.cshtml.g.cs
